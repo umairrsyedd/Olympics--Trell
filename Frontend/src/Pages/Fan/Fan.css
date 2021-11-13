@@ -1,0 +1,23 @@
+.Fan__Heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.Fan__Container {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.Fan__Counter {
+  margin-left: 3rem;
+  width: 20vw;
+}
+.Fan__Card {
+  padding: 1rem;
+  margin-right: 1rem;
+}
+.Cheer__Button {
+  padding: 1rem;
+}
