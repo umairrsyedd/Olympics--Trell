@@ -18,9 +18,7 @@ const getAllSchedule = async (req, res) => {
 const getCountrySchedule = async (req, res) => {
     try {
         let country = req.body.country
-        console.log(country)
         const schedules = await ScheduleModel.find({ Teams: req.body.country })
-        console.log(schedules)
         res.json(schedules)
     } catch (err) {
         res.json({ message: err })
